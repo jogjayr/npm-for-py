@@ -1,0 +1,17 @@
+{
+  "name": "test-install",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "PYTHONPATH=\"$(node unpack.js)\":$PYTHONPATH; export PYTHONPATH; python test-install/__init__.py",
+    "postinstall": "node unpack.js"
+  },
+  "dependencies": {
+    "@pypi/chardet": "^3.0.4",
+    "@pypi/idna": "^2.6.0",
+    "@pypi/python-certifi": "^2017.7.27",
+    "@pypi/requests": "^2.18.5",
+    "@pypi/urllib3": "^1.22.0"
+  }
+}
