@@ -5,7 +5,6 @@
   "license": "MIT",
   "scripts": {
     "start": "PYTHONPATH=\"$(node unpack.js)\":$PYTHONPATH; export PYTHONPATH; python test-install/__init__.py",
-    "postinstall": "node unpack.js"
   },
   "dependencies": {
     "@pypi/chardet": "^3.0.4",
