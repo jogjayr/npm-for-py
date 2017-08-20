@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "PYTHONPATH=\"$(node unpack.js)\":$PYTHONPATH; export PYTHONPATH; python test-install/__init__.py",
+    "start": "PYTHONPATH=\"$(node unpack.js)\":$PYTHONPATH; export PYTHONPATH; python npm-for-py/__init__.py",
   },
   "dependencies": {
     "@pypi/chardet": "^3.0.4",
