@@ -8,10 +8,10 @@
   },
   "dependencies": {
     "@pypi/chardet": "^3.0.4",
+    "@pypi/django": "^1.11.4",
     "@pypi/idna": "^2.6.0",
     "@pypi/python-certifi": "^2017.7.27",
     "@pypi/requests": "^2.18.5",
     "@pypi/urllib3": "^1.22.0"
   }
 }
-
